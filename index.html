@@ -1,28 +1,522 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="Width=device-width,initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>my first github project</title>
-</head>
-<body style="background-color:yellow">
-    <address>
-Written by <a href="huatiancong@gmail.com">HTCMAX</a>.<br> 
-Visit us at:<br>
-Example.com<br>
-Box 564, Disneyland<br>
-USA
-</address>
-    <h1 align="center" style="background-color:red"> Left Ventricle Quantification 19 </h1>
-    <p align="center" style="font-family:arial;color:red;font-size:20px;"><strong>first</strong> github project,and this is a test project.</p>
-    <p>edit with:</p>
-    <img border="0" src="17号病人.gif" />
+<!Doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Left Ventricle Full Quantification Challenge MICCAI 2019</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/header-logo1.png">
+        <!-- Place favicon.ico in the root directory -->
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/slicknav.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/animate-text.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+		<!-- Ruby CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		
+		<!-- Color CSS -->
+		<link rel="stylesheet" href="css/color/color7.css">
+		<!--<link rel="stylesheet" href="css/color/color1.css">-->
+		<!--<link rel="stylesheet" href="css/color/color2.css">-->
+		<!--<link rel="stylesheet" href="css/color/color3.css">-->
+		<!--<link rel="stylesheet" href="css/color/color4.css">-->
+		<!--<link rel="stylesheet" href="css/color/color5.css">-->
+		<!--<link rel="stylesheet" href="css/color/color6.css">-->
+		<!--<link rel="stylesheet" href="css/color/color8.css">-->
+		<!--<link rel="stylesheet" href="css/color/color9.css">-->
+
+		<link rel="stylesheet" href="#" id="colors">
+		
+    </head>
+    <body>
+	
+		
+		<!-- Header Area -->
+		<header id="header" class="header">
+			<!-- Header Inner -->
+			<div class="header-inner" >
+				<div class="container">
+					<div class="row">
+                <!--
+                    <div class="col-md-3 col-sm-4 col-xs-4" >
+							<div class="logo">
+                              
+								<a href="index.html" ><img src="img/logo.png" alt="logo.png" ></a>
+							</div>
+						</div>
+                -->        
+					
+						
+						<div class="col-md-12 col-sm-12" style="float:right;width:1300px">
+							<div class="mobile-menu"></div>
+							<nav class="navbar navbar-default">
+								<div class="collapse navbar-collapse">
+									<ul id="nav" class="nav navbar-nav">
+										<li class="current"><a href="#slider">home</a>
+										</li>
+										<li><a href="#CHALLENGE DESCRIPTION">DESCRIPTION<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+											<ul class="dropdown">
+												<li><a href="#CHALLENGE DESCRIPTION">CHALLENGE DESCRIPTION</a></li>
+												<li><a href="#DATA DESCRIPTION">DATA DESCRIPTION</a></li>
+											</ul>
+										</li>
+										<li><a href="#Important dates">Important dates</a></li>
+
+										<li><a href="#Objective">Objective&EVALUATION<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+											<ul class="dropdown">
+												<li><a href="#Objective">Objective</a></li>
+												<li><a href="#EVALUATION CRITERION">EVALUATION CRITERION</a></li>
+											</ul>
+										</li>
+										
+										<li><a href="#PAPER SUBMISSION">SUBMISSION <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+											<ul class="dropdown">
+												<li><a href="#PAPER SUBMISSION">PAPER SUBMISSION</a></li>
+												<li><a href="#RESULT SUBMISSION">RESULT SUBMISSION</a></li>
+											</ul>
+										</li>
+										<li><a href="#AWARD AND PUBLICATION">AWARD AND PUBLICATION</a></li>
+										<li><a href="#ORGANIZER">ORGANIZER</a></li>
+										<li><a href="#Contact">Contact</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--/ End Header Area -->
+		
+		<!-- Slider Area -->
+		<section id="slider">
+				<div class="single-slider" style="background-image:url('img/slider1.jpg')">
+					<div id="particles-js"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="text">
+								
+
+									<h1 class="cd-headline clip is-full-width" >
+										Left Ventricle Full Quantification Challenge MICCAI 2019
+										
+									</h1>
+									
+									<p style="line-height:100px"><font size="5" >An extension of Left Ventricle Full Quantification Challenge MICCAI 2018</font></p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!--/ End Slider Area -->
+		
+		<!-- features Area -->
+		<section id="CHALLENGE DESCRIPTION" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-80">
+						<div class="section-title">
+							<h2><font color="black">Challenge Description</font></h2>
+							
+						</div>
+						<p align="left" style="text-indent:2em"> <font size="4" color="black">
+							This challenge is an extension of Left Ventricle Full Quantification Challenge  MICCAI 2018 (LVQuan18), 
+							the main difference is that this challenge (LVQuan19) will provide original data without preprocessing for training and testing phases, 
+							which is more clinical than the data providing by LVQuan18. The challenge
+									addresses the analysis of left ventricles (LV) in patients undergoing cardiac MRI.</font></p></br>
+									<p align="left" style="text-indent:2em"> <font size="4" color="black">
+									To assess the heart's function, the LV's function, morphology and temporal
+									dynamics is of clinical interest. This analysis in clinical routine is time consuming
+									and prone to error and inter-observer variability. In this challenge the extraction of
+									the LV's cavity and myocardium and subsequently the regression of regional wall
+									thicknesses, LV dimensions and the classification of the phase of the cardiac
+									cycle are to be performed. These are common and significant parameters to
+									assess the LV function.</font></p></br>
+									<p align="left" style="text-indent:2em"> <font size="4" color="black"> The aim of this challenge is to learn effective machine
+									learning models that can estimate a set of clinical significant LV indices (regional
+									wall thicknesses, cavity dimensions, area of cavity and myocardium, cardiac
+									phase) directly from MR images. No intermediate segmentation is required in the
+									whole procedure.
+									</font></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End features Area -->
+		
+		<!-- Start Service area -->
+		<section id="DATA DESCRIPTION" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2 align="center">DATA DESCRIPTION</h2>
+							<p>Features of Training and test dataset will be descripted below.</p>
+						</div>
+					</div>
+				</div>
+				<h3>Training Dataset</h3></br>
+				<p align="left" style="text-indent:2em"> <font size="4" color="black"> A training dataset with processed SAX MR sequences of 56 subjects from clinical environment is used for model learning and validation. 
+				For each subject, 20 frames are included for the whole cardiac cycle. All ground truth values of the above-mentioned LV indices are provided for every single frame. 
+				With the training dataset, we encourage the participants to report the performance of their algorithms with N-fold cross validation, where the following configuration are used : 
+				</br><br>N=3, the number of each folds are (18, 19, 19);<br>N=5, the number of each folds are (11, 11, 11, 11, 12).</br> </br> In such a way, we can have initial impression of the algorithms’ stability. 
+				The training dataset is available via E-mail:lvquan19@outlook.com (in order to count the number of participants)</font></p>
+
+				<h3></br>Test Dataset</h3></br>
+				<p align="left" style="text-indent:2em"> <font size="4" color="black"> A test dataset with processed SAX MR sequences of 30 subjects will be provided to participants according to the challenge schedule for algorithms assessment and ranking. 
+				The processing procedure is the same as that in the training dataset. 
+				For each subject, only the SAX image sequences of 20 frames are provided, while their ground truth values are not.</font></p>
+			</div>
+		</section>
+		<!-- End Service -->
+				<!--/ End Newslatter -->
+		<section id="Important dates" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Important dates</h2>
+						</div>
+					</div>
+				</div>
+			<ul align="center" > <font size="4" color="black">
+				<li>Training/Validation data release: 5 March 2019</li>
+				<li>Test data release: 3 July 2019</li>
+				<li>Abstract registration: 3 July 2019</li>
+				<li>Test results submission: <font color="red">7 July 2019, 23:59 CDT</font></li>
+				<li>Test performance feedback: 10 July 2019 </li>
+				<li>Paper submission deadline: 13 July 2019 <font color="red">(12 June 2019 23:59 CDT)</font></li>
+				<li>Workshop paper notification: 13 August 2019</li>
+				<li>Camera ready version submission: 20 August 2019</li>
+				<li>Challenge day: 16 Septermber 2019 (in conjunction with <a href="http://stacom2019.cardiacatlas.org/">STACOM 2019)</a></li>
+
+			</font></ul>			
+
+		</section>
+
+
+		<!-- Latest Works Area -->
+		<section id="Objective" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Objective</h2>
+							
+						</div>
+					
+					</div>
+				</div>
+				<p align="left" style="text-indent:2em"><font size="4" color="black">Developing reliable and accurate automatic method for full quantification of cardiac LV for each frame in the short axis view cardiac MR sequences. 
+				The quantifications include the following LV indices.</font></p></br>
+				<img src="lvquan.jpg"  alt="lv_quan19" /></br>
+				<!-- Table -->
+	<div class="table-wrapper">
+		<table cellpadding="80" style="font-size:18px;font-color:black;">
+			<thead>
+				</br><tr style="font-size:25px;font-color:black;" >
+					<th>Name</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>A1, A2</td>
+					<td>cavity area and myocardium area, in mm^2.</td>
+				</tr>
+				<tr>
+					<td>D1~D3</td>
+					<td>dimensions of cavity of three directions (IS-AL, I-A, and IL-AS) in mm.</td>
+				</tr>
+				<tr>
+					<td>RWT1~RWT6</td>
+					<td>regional wall thickness in mm, staring from the anterior-septal segment in counter clockwise direction, i.e., IS, I, IL, AL, A, AS.</td>
+				</tr>
+				<tr>
+					<td>Phase</td>
+					<td>binary variable for cardiac phase, 1 means systolic phase and 0 means diastolic.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!-- end of Table -->
+	
+	<p align="left" style="text-indent:2em"><font size="4" color="black"><br>For more details about left ventricle quantification, the following two references are recommended:</font></p></br>
+<ul>
+	<li style="text-indent:2em"><font size="3" color="black">[1] Wufeng Xue, Gary Brahm, Sachin Pandey, Stephanie Leung, and Shuo Li. Full left ventricle quantification via deep multitask relationships learning. Medical Image Analysis, 43:54–65, Jan. 2018. [<a href="http://www.digitalimaginggroup.ca/members/Shuo/FullQMedIA.pdf">pdf</a>]</font></li>
+	<li style="text-indent:2em"><font size="3" color="black">[2] Wufeng Xue, Andrea Lum, Ashley Mercado, Mark Landis, James Warringto, and Shuo Li. Full quantification of left ventricle via deep multitask learning network respecting intra-and inter-task relatedness. MICCAI, 2017. [<a href="http://www.digitalimaginggroup.ca/members/Shuo/MICCAIFull.pdf">pdf</a>] </font></li>
+</ul></div>
+	</article>
+</div><!-- Footer -->		
+			</div>
+		</section>
+		<!--/ End Works Area -->
+		
+		
+		
+		
+		<!-- Blog -->
+		<section id="EVALUATION CRITERION" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Evaluation Criterion</h2>
+							
+						</div>
+					</div>
+				</div>
+				<h1>Metrics</h1></br>
+			<!-- Main -->
+
+	<!-- Post -->
+	<article class="shade-two">
+	  <div class="container">
+			
+				
+<ul>
+  <li>
+    <p align="left" style="text-indent:2em"> <font size="4" color="black">Mean Absolute Error (<strong>MAE</strong>) and Pearson correlation coefficient (<strong>PCC</strong>) are used to assess the performance of the algorithms for estimation of areas, dimensions and regional wall thicknesses. For the 30 subjects in the test dataset, there are a total of 600 images. For any LV indices in {A1, A2, D1~D3, RWT1~RWT6}, the MAE and PCC can be computed as:
+<br /></br>
+<div style=" text-align:center;">
+<script type="math/tex" style="text-align:center;">{\scriptstyle MAE_{ind}=\frac{\sum_{i=1}^{600}|x_{ind}(i)-y_{ind}(i)|}{600}}</script></br>
+<br />
+<script type="math/tex" >{\scriptstyle PCC_{ind}=\frac{\sum_{i=1}^{600}[x_{ind}(i)-\bar{x}_{ind}][y_{ind}(i)-\bar{y}_{ind}]}{\sqrt{\sum_{i=1}^{600}[x_{ind}(i)-\bar{x}_{ind}]^2\sum_{i=1}^{600}[y_{ind}(i)-\bar{y}_{ind}]^2}}}</script></br></div>
+<br />where <script type="math/tex">{\scriptstyle ind\in \{A1,A2, D1~D3, RWT1~RWT6\}}</script>, <script type="math/tex">{\scriptstyle x_{ind}}</script> is the groud truth value and <script type="math/tex">{\scriptstyle y_{ind}}</script> is the estimated value, <script type="math/tex">{\scriptstyle \bar{x}_{ind}}</script> and <script type="math/tex">{\scriptstyle \bar{y}_{ind}}</script> are their mean values.</font></p></br>
+  </li>
+  <li>
+    <p align="left" style="text-indent:2em"> <font size="4" color="black">Error Rate (<strong>ER</strong>) is used to assess the performance of the algorithms for cardiac phase identification. It can be computed as:
+<br /></br>
+<div style=" text-align:center;">
+<script type="math/tex" >{\scriptstyle ER_{phase}=\frac{\sum_{i=1}^{600}\mathbf{1}(x_{phase}(i)\neq y_{phase}(i))}{600}}</script></br></div>
+<br />
+where <script type="math/tex">{\scriptstyle \mathbf{1}()}</script> is the indication function, <script type="math/tex">{\scriptstyle x_{phase}}</script> and <script type="math/tex">{\scriptstyle y_{phase}}</script> are the ground truth value and the estimated value of cardiac phase, respectively.</font></p></br>
+  </li>
+</ul>
+
+<h1>Ranking</h1></br>
+<p align="left" style="text-indent:2em"> <font size="4" color="black">MAE and ER are used for the final ranking of all participants.</font></p></br>
+<ol align="left" style="text-indent:2em"> <font size="4" color="black">
+  <li>Initialization:</li></br> <li>1. For each participant, compute <script type="math/tex">{\scriptstyle MAE_{ind}}</script> for <script type="math/tex">{\scriptstyle ind\in \{A1,A2, D1\sim D3, RWT1\sim RWT6\}}</script> and <script type="math/tex">{\scriptstyle ER_{phase}}</script>.</li></br>
+  <li>    2. Compute the mean MAE values for areas, dimensions, and regional wall thicknesses, and obtain <script type="math/tex">{\scriptstyle MAE_{area}}</script>, <script type="math/tex">{\scriptstyle MAE_{dim}}</script>, <script type="math/tex">{\scriptstyle MAE_{rwt}}</script>.</li></br>
+  <li>    3. Build four ranking lists (<script type="math/tex">{\scriptstyle R_{area}}</script>, <script type="math/tex">{\scriptstyle R_{dim}}</script>, <script type="math/tex">{\scriptstyle R_{rwt}}</script>, <script type="math/tex">{\scriptstyle R_{phase}}</script>) of all participants according to <script type="math/tex">{\scriptstyle MAE_{area}}</script>, <script type="math/tex">{\scriptstyle MAE_{dim}}</script>, <script type="math/tex">{\scriptstyle MAE_{rwt}}</script> and <script type="math/tex">{\scriptstyle ER_{phase}}</script> in ascending order, respectively. Statistical test is conducted for areas, dimensions, and regional wall thicknesses to test the significance of difference between two participants. If no significance exists, the two participants will have the same rank in the list.</li></br>
+  <li>    4. The final ranking list <script type="math/tex">{\scriptstyle R_{ALL}}</script> is computed by sorting the summation of the four ranking lists above in ascending order.</li>
+</font></ol>
+</div>
+	</article>
+</div><!-- Footer -->	
+			</div>
+		</section>
+		<!--/ End Newslatter -->
+		
+	
+			
+		<!-- Team -->
+		<section id="PAPER SUBMISSION" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="section-title">
+							<h2>Paper Submission</h2>
+							
+						</div>
+					</div>
+				</div>
+			<h1 id="workshop-paper">Workshop paper</h1></br>
+<p align="left" style="text-indent:2em"> <font size="4" color="black">All participants are encouraged to submit a full workshop paper describing their algorithms and results. Manuscript up to 8 pages should follow the template of main conferences’ paper and be submitted via the <a href="http://stacom2018.cardiacatlas.org/submission/"><strong>STACOM submission system</strong></a>.</font></p></br>
+
+<h1 id="one-page-abstract">One-page abstract</h1></br>
+<p align="left" style="text-indent:2em"> <font size="4" color="black">Participants who cannot finish the task on time are encouraged to complete the task before <strong>6 September 2019</strong>, with the one-page abstract submitted to the organizer via email (lvquan19@outlook.com). The results on test data should be sent to the organizer for performance evaluation before <strong>1 September 2019</strong>.</font></p></br>
+
+<h1 id="challenge-ranking">Challenge ranking</h1></br>
+<p align="left" style="text-indent:2em"> <font size="4" color="black">Successful participants with workshop paper will be ranked according the assessment criterion.</font></p></br>
+
+<h1 id="full-ranking">Full ranking</h1></br>
+<p align="left" style="text-indent:2em"> <font size="4" color="black">A full ranking list including all the participants who completed the LV quantification task, with either workshop paper or one-page abstract, will also be announced during the workshop.</font></p>
+
+			</div>
+		</section>
+		<!--/ End Team -->
+		
+		<!-- Pricing Table -->
+		<section id="RESULT SUBMISSION" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Result Submission</h2>
+							<p>Details about the final result submission.</p>
+						</div>
+					</div>
+				</div>
+				
+<h1 id="how">How</h1></br>
+<p align="left" style="text-indent:2em"> <font size="4" color="black">Send algorithm output on the test dataset to organizers via email (lvquan19@outlook.com).</font></p></br>
+
+<h1 id="format">Format</h1></br>
+<p align="left" style="text-indent:2em"> <font size="4" color="black">The estimated results of the test dataset should be within 0~1, as those in the provided ground truth of the training dataset. Results of test dataset can be submitted either in a MATLAB data file (.mat file) or in a text file (.txt file), with the following protocols.</font></p></br>
+
+<ol align="left" style="text-indent:2em"> <font size="4" color="black">
+  <li>
+    <p><strong>File Name</strong>: LVQUAN_XXX.mat or LVQUAN_XXX.txt. XXX is the initials of the participant’s name.</p></br>
+  </li>
+  <li><strong>MATALB data</strong>: the submitted results should be in the same format as the ground truth in the training dataset. Four variables should be contained in the LVQUAN_XXX.mat file:</br>
+    <ul></br>
+      <li><strong>areas_hat:</strong>
+        <ul>
+          <li>array of size of 2×600.</li>
+          <li>areas(1,:) is for cavity area and areas(2,:) is for myocardium area.</li>
+          <li>For the 20 frames of subject s, the results should be areas(:, (s-1)×20:s×20).</li>
+        </ul>
+      </li></br>
+      <li><strong>dims_hat:</strong>
+        <ul>
+          <li>array of size of 3×600.</li>
+          <li>dims(1,:) is for direction of IS-AL, dims(2,:) is for direction of I-A, and dims(3,:) is for direction of IL-AS.</li>
+          <li>For the 20 frames of subject s, the results should be dims(:, (s-1)×20:s×20).</li>
+        </ul>
+      </li></br>
+      <li><strong>rwt_hat:</strong>
+        <ul>
+          <li>array of size of 6×600.</li>
+          <li>areas(1,:)~areas(6,:) are for segments IS, I, IL, AL, A and AS, accordingly.</li>
+          <li>For the 20 frames of subject s, the results should be rwt(:, (s-1)×20:s×20).</li>
+        </ul>
+      </li></br>
+      <li><strong>lv_phase_hat:</strong>
+        <ul>
+          <li>array of size of 1×600.</li>
+          <li>For the 20 frames of subject s, the results should be lv_phase(:, (s-1)×20:s×20).</li>
+        </ul>
+      </li>
+    </ul>
+  </li></br>
+  <li><strong>TEXT data</strong>: the submitted results should be in the following format.
     <ul>
-        <li>html5</li>
-        <li>javascript</li>
-        <li>css3</li>
-    <ul>
-    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
-</body>
+      <li>Each line should start with “sub-xx-yy”, where xx is the subject number and yy is the frame number.</li>
+      <li>
+        <p>The results of all the LV indices for one frame are arranged in the same line as follow:</p>
+
+        <p>sub-xx-yy: A1, A2, D1, D2, D3, RWT1, RWT2, RWT3, RWT4, RWT5, RWT6, Phase</p>
+      </li>
+      <li>Results for the same subject should be in successively 20 lines.</li>
+    </ul>
+  </li>
+<font></ol>
+</div>
+	
+</div><!-- Footer -->
+
+				</div>	
+			</div>	
+		</section>	
+		<!--/ End Pricing Table -->
+
+
+<!-- Blog -->
+		<section id="AWARD AND PUBLICATION" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Award and Publication</h2>
+						</div>
+					</div>
+				</div>
+			<ul align="left" > <font size="4" color="black">
+				<li>Multiple awards will be selected according to the ranking list of all participants.</li></br>
+				<li>Selected challenge papers will be published with the STACOM proceedings in Lecture Notes in Computer Science, Springer.</li></br>
+				<li>A potential publication in MedIA or IEEE TMI which summarizes the benchmarked algorithms will be completed and all participants share the credit.</li></br>
+			</font></ul>			
+
+		</section>
+
+
+		<!--/ End Newslatter -->
+		<section id="ORGANIZER" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Organizer</h2>
+						</div>
+					</div>
+				</div>
+			<ul align="center" > <font size="4" color="black">
+				<li><strong>Shuo Li </strong>(slishuo@gmail.com), Western University, ON, Canada</li></br>
+				<li><strong>Guanyu Yang</strong> (yang.list@seu.edu.cn), Lab of Image Science and Technology, School of Computer
+Science, Southeast University, Nanjing, China</li></br>
+				<li><strong>Tiancong Hua</strong> (hua1009464760@outlook.com), Lab of Image Science and Technology, School of Computer
+Science, Southeast University, Nanjing, China</li>
+
+			</font></ul>			
+
+		</section>
+		<!--/ End Newslatter -->		
+<section id="Contact" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Contact</h2>
+						</div>
+					</div>
+				</div>
+			<ul align="left" > <font size="5" color="black">
+				
+<li>For any questions about the challenge, feel free to contact: <strong>E-mail: lvquan19@outlook.com</strong></li>
+			</font></ul>			
+
+		</section>
+		
+		
+		
+		<!-- Footer Area -->
+		<footer id="footer" class="footer section">
+			<!-- Copyright -->
+			<ul class="copyright">
+
+							<li>&copy;LVQuan19. All rights reserved. | Design: <a href="http://www.cssmoban.com">cssmoban.com</a></li>
+				
+			</ul>
+			<!--/ End Copyright -->
+		</footer>
+		<!--/ End Footer Area -->
+			
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+		<script src="js/colors.js"></script>
+        <script src="js/jquery.nav.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/animate-text.js"></script>
+		<script src="js/particles.min.js"></script>
+		<script src="js/particle-code.js"></script>
+		<script src="js/jquery.counterup.min.js"></script>
+		
+        <script type="text/javascript" src="js/gmaps.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
